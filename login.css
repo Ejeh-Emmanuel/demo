@@ -1,0 +1,78 @@
+body{
+    background-image: url(./images/ryan-moreno-w1_4YH5IhDg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: cursive;
+    backdrop-filter: blur(2px);
+    margin-top: 0;
+    margin-left: 0;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(22, 224, 231);
+}
+
+a:hover{
+    color:sienna
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40%;
+    cursor: pointer;
+}
+
+button:hover{
+        box-shadow: 1px 1px 10px white;
+}
+.container{
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    box-sizing: border-box;
+    border: 3px solid;
+    border-radius: 10px;
+    backdrop-filter: blur(100px) saturate(180%);
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    top: 90px;
+    left: 450px;
+    line-height: 30px;
+}
+
+.already-signed{
+    font-size: 20px;
+}
+
+.header{
+    margin-top: 30px;
+    margin-left: 15%;
+    text-align: center;
+    display: inline-block;
+    align-content: center;
+}
+
+span{
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+input{
+    min-width: 80%;
+    min-height: 20px;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+.anotheracc{
+    margin-left: 35%;
+}
